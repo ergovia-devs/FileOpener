@@ -24,6 +24,7 @@
         
         </config-file>
         <source-file src="src/android/FileOpener.java" target-dir="src/com/phonegap/plugins/fileopener" />
+        <framework src="com.android.support:support-v4:23.3.0+" />
     </platform>
 
     <platform name="wp8">
@@ -33,6 +34,5 @@
             </feature>
         </config-file>
         <source-file src="src/wp/FileOpener.cs" />
-        <framework src="com.android.support:support-v4:23.3.0+" />
     </platform>
 </plugin>
